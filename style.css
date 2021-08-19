@@ -1,3 +1,8 @@
+/* Style della sezione in cima alla pagina */
+#top-page {
+    background-color: rgba(236, 250, 250, 0.507);
+}
+
 /* Style della scritta che si trova in cima alla pagina */
 #titolo {
     text-align: center;
@@ -40,17 +45,26 @@
     margin-top: 20px !important;
 }
 
+/* Personalizzazione della barra di navigazione*/
+#navbar{
+    background-color: rgb(206, 237, 238);
+    width: 100%;
+}
+
 /* Style delle informazioni che si trovano in fondo alla pagina */
 #footer {
     position: fixed;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(91, 107, 253);
     width: 100%;
     font-size: 11px;
     line-height: 1.5;
-    color: #888;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
     color: white;
-    bottom: 1px;
+    bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer-link{
+    color: white;
 }
