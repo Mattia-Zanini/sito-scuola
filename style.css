@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+h1.mt-1 {
+    margin-top: 20px !important;
+}
+
 /* Style per le immagini che si trovano in cima alla pagina */
 #img-top-rep {
     width: 20%;
@@ -40,42 +44,202 @@
     margin-right: 1%;
 }
 
-/* Personalizzazione dei margini */
-.mt-1 {
-    margin-top: 20px !important;
-}
-
 /* Personalizzazione della barra di navigazione*/
-#navbar{
+#navbar {
     background-color: rgb(206, 237, 238);
     width: 100%;
 }
 
-.active li:hover{
+.active li:hover {
     background: rgb(170, 237, 238);
     border-radius: 0.5vw;
 }
 
-#home{
-    width: 20%;
-    height: 20%;
-    margin-left: 1vw;
+#home-img {
+    width: 100%;
+    height: 100%;
+}
+
+a:hover #home-img {    
+    background: rgb(170, 237, 238);
+    border-radius: 0.5vw;
+}
+
+/* Personalizzazione schermata centrale della pagina */
+/* Prima riga */
+#sx-mid-page{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-mid-page{
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(235, 235, 235);
+    color: rgb(101, 101, 255);
+}
+
+#dx-mid-page{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+/* Seconda riga */
+
+#dx-mid-page-row2{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
 }
 
 /* Style delle informazioni che si trovano in fondo alla pagina */
 #footer {
-    position: fixed;
     background-color: rgb(91, 107, 253);
     width: 100%;
-    font-size: 11px;
     line-height: 1.5;
     text-align: center;
     color: white;
     bottom: 0%;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #footer-link{
-    color: white;
+    color: rgb(129, 213, 228);
+}
+
+/* Per togliere la riga dei link */
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+/* media queries */
+@media screen and (max-width: 575px) { /* XS */
+
+    /* Parte superiore della pagina */
+
+    #home {
+        width: 40px;
+        height: 45px;
+    }
+
+    #home-img {
+        margin-bottom: 15px;
+    }
+
+    /* Prima riga della pagina */
+
+    #title-row1-mid {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    #text-row1-mid {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #img-mid-pon {
+        width: 110px;
+        height: auto;
+        float: right;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    #mid-mid-page {
+        border-radius: 10px;
+    }
+
+    #title-row1-dx{
+        text-align: right;
+        font-size: 15px;
+    }
+
+    #link-row1-sx {
+        font-size: 15px;
+    }
+
+    #title-row1-sx {
+        margin-bottom: 10px;
+    }
+
+    #sx-mid-page {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #dx-mid-page {
+        right: 5px;
+        border-radius: 10px;
+    }
+
+    /* Seconda riga */
+
+    #title-row2-sx {
+        margin-bottom: 10px;
+    }
+
+    #link-row2-sx {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #title-row2-dx{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #img-mid-mask {
+        max-width: 100px;
+        height: 100px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #dx-mid-page-row2 {
+        right: 5px;
+        border-radius: 10px;
+    }
+
+    /* Piè di pagina */
+
+    #footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) { /* SM */
+    
+    #title-row1-mid {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #text-row1-mid {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) { /* MD */
+
+    #title-row1-mid {
+        margin-top: 20px;
+    }
+
+    #text-row1-mid {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) { /* LG */
+}
+
+@media screen and (min-width: 1200px) { /* XL */
+}
+
+@media screen and (min-width: 1400px) { /* XXL */
 }
