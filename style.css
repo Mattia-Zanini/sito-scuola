@@ -1,30 +1,49 @@
-#main-top {
+/* Style della scritta che si trova in cima alla pagina */
+#titolo {
     text-align: center;
+    justify-content: center;
+    font-size: 3vw;
+    width: 100%;
 }
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-    body {font-size:1.5rem;} /*1rem = 16px*/
-}
-   
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {
-    body {font-size:2rem;}
-}
-   
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    body {font-size:2.5rem;}
-}
-   
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    body {font-size:3rem;}   
+/* Style per le immagini che si trovano in cima alla pagina */
+#img-top-rep {
+    width: 20%;
+    max-width: 80px;
+    height: auto;
+    float: left;
+    right: 80%;
+    display: flex;
+    margin-top: 2%;
 }
 
+#img-top-cert {
+    width: 28%;
+    max-width: 100px;
+    height: auto;
+    float: right;
+    display: flex;
+}
+
+#img-top-logo {
+    width: 22%;
+    max-width: 100px;
+    height: auto;
+    display: flex;
+    float: right;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+/* Personalizzazione dei margini */
+.mt-1 {
+    margin-top: 20px !important;
+}
+
+/* Style delle informazioni che si trovano in fondo alla pagina */
 #footer {
     position: fixed;
-    background-color: gray;
+    background-color: rgb(197, 197, 197);
     width: 100%;
     font-size: 11px;
     line-height: 1.5;
