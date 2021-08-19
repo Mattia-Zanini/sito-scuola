@@ -51,6 +51,17 @@
     width: 100%;
 }
 
+.active li:hover{
+    background: rgb(170, 237, 238);
+    border-radius: 0.5vw;
+}
+
+#home{
+    width: 20%;
+    height: 20%;
+    margin-left: 1vw;
+}
+
 /* Style delle informazioni che si trovano in fondo alla pagina */
 #footer {
     position: fixed;
