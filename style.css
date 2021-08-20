@@ -1,10 +1,10 @@
 /* Style della sezione in cima alla pagina */
-#top-page {
+#section-top-page {
     background-color: rgba(236, 250, 250, 0.507);
 }
 
 /* Style della scritta che si trova in cima alla pagina */
-#titolo {
+#top-page-title {
     text-align: center;
     justify-content: center;
     font-size: 3vw;
@@ -16,7 +16,7 @@ h1.mt-1 {
 }
 
 /* Style per le immagini che si trovano in cima alla pagina */
-#img-top-rep {
+#img-top-page-repubblica-it {
     width: 20%;
     max-width: 80px;
     height: auto;
@@ -26,7 +26,7 @@ h1.mt-1 {
     margin-top: 2%;
 }
 
-#img-top-cert {
+#img-top-page-certiquality {
     width: 28%;
     max-width: 100px;
     height: auto;
@@ -34,7 +34,7 @@ h1.mt-1 {
     display: flex;
 }
 
-#img-top-logo {
+#img-top-page-logo-itis {
     width: 22%;
     max-width: 100px;
     height: auto;
@@ -55,32 +55,32 @@ h1.mt-1 {
     border-radius: 0.5vw;
 }
 
-#home-img {
+#img-home-navbar {
     width: 100%;
     height: 100%;
 }
 
-a:hover #home-img {    
+a:hover #img-home-navbar {    
     background: rgb(170, 237, 238);
     border-radius: 0.5vw;
 }
 
 /* Personalizzazione schermata centrale della pagina */
 /* Prima riga */
-#sx-mid-page{
+#mid-page-row1-sx{
     background-color: rgb(235, 235, 235);
     margin-top: 2%;
     color: rgb(101, 101, 255);
 }
 
-#mid-mid-page{
+#mid-page-row1-mid{
     text-align: center;
     margin-top: 2%;
     background-color: rgb(235, 235, 235);
     color: rgb(101, 101, 255);
 }
 
-#dx-mid-page{
+#mid-page-row1-dx{
     background-color: rgb(235, 235, 235);
     margin-top: 2%;
     color: rgb(101, 101, 255);
@@ -96,6 +96,31 @@ a:hover #home-img {
 
 #title-row2-dx {
     color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-sx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-mid{
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(235, 235, 235);
+}
+
+#mid-page-title-row2-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-text-mid{
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row2-table-mid{
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
 /* Style delle informazioni che si trovano in fondo alla pagina */
@@ -157,28 +182,28 @@ a:-webkit-any-link {
 
     /* Parte superiore della pagina */
 
-    #home {
+    #home-navbar {
         width: 40px;
         height: 45px;
     }
 
-    #home-img {
+    #img-home-navbar {
         margin-bottom: 15px;
     }
 
     /* Prima riga della pagina */
 
-    #title-row1-mid {
+    #mid-page-row1-title-mid {
       font-size: 16px;
       margin-top: 10px;
     }
 
-    #text-row1-mid {
+    #mid-page-row1-text-mid {
         font-size: 12px;
         margin-bottom: 10px;
     }
 
-    #img-mid-pon {
+    #img-mid-page-row1-dx-pon {
         width: 110px;
         height: auto;
         float: right;
@@ -186,34 +211,39 @@ a:-webkit-any-link {
         margin-top: 6px;
     }
 
-    #mid-mid-page {
+    #mid-page-row1-mid {
         border-radius: 10px;
     }
 
-    #title-row1-dx{
+    #mid-page-title-row1-dx{
         text-align: right;
         font-size: 15px;
     }
 
-    #link-row1-sx {
+    #mid-page-link-row1-sx {
         font-size: 15px;
     }
 
-    #title-row1-sx {
+    #mid-page-title-row1-sx {
         margin-bottom: 10px;
     }
 
-    #sx-mid-page {
+    #mid-page-row1-sx {
         left: 5px;
         border-radius: 10px;
     }
 
-    #dx-mid-page {
+    #mid-page-row1-dx {
         right: 5px;
         border-radius: 10px;
     }
 
     /* Seconda riga */
+
+    #mid-page-row2-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
 
     #title-row2-sx {
         margin-bottom: 10px;
@@ -230,7 +260,7 @@ a:-webkit-any-link {
         font-size: 12px;
     }
 
-    #img-mid-mask {
+    #mid-page-row2-row1-img-mask {
         width: 100px;
         height: auto;
         float: right;
@@ -238,12 +268,17 @@ a:-webkit-any-link {
         margin-top: 10px;
     }
 
-    #img-mid-gstreet{
+    #mid-page-row2-row1-img-gstreet{
         width: 100px;
         height: auto;
         float: right;
         margin-right: 15px;
         margin-top: 3px;
+    }
+
+    #mid-page-title-row2-mid {
+        font-size: 25px;
+        margin-top: 10px;
     }
 
     #dx-mid-page-row2-row1 {
@@ -311,6 +346,25 @@ a:-webkit-any-link {
         width: 200px;
     }
 
+    #mid-page-row2-mid {
+        border-radius: 10px;
+    }
+
+    #mid-page-row2-text-mid {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-link-mid {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row2-table-mid{
+        width: 100%;
+        height: 40px;
+    }
+
     /* Piè di pagina */
 
     #footer {
@@ -320,12 +374,12 @@ a:-webkit-any-link {
 
 @media screen and (min-width: 576px) { /* SM */
     
-    #title-row1-mid {
+    #mid-page-row1-title-mid {
         font-size: 25px;
         margin-top: 10px;
     }
 
-    #text-row1-mid {
+    #mid-page-row1-text-mid {
         font-size: 18px;
         margin-bottom: 10px;
     }
@@ -333,11 +387,11 @@ a:-webkit-any-link {
 
 @media screen and (min-width: 768px) { /* MD */
 
-    #title-row1-mid {
+    #mid-page-row1-title-mid {
         margin-top: 20px;
     }
 
-    #text-row1-mid {
+    #mid-page-row1-text-mid {
         margin-top: 40px;
     }
 }
@@ -350,3 +404,75 @@ a:-webkit-any-link {
 
 @media screen and (min-width: 1400px) { /* XXL */
 }
+
+/*  TABELLA
+
+            <table id="mid-page-row2-table-mid">
+              <tbody>
+                <!-- Prima riga -->
+                <tr>
+                  <td>
+                    Data
+                  </td>
+                  <td>
+                    Classe di Concorso
+                  </td>
+                  <td>
+                    Aula
+                  </td>
+                  <td>
+                    Turno
+                  </td>
+                </tr>
+                <!-- Seconda riga -->
+                <tr>
+                  <td>
+                    Data
+                  </td>
+                  <td>
+                    Classe di Concorso
+                  </td>
+                  <td>
+                    Aula
+                  </td>
+                  <td>
+                    Turno
+                  </td>
+                </tr>
+                <!-- Terza riga -->
+                <tr>
+                  <td>
+                    Data
+                  </td>
+                  <td>
+                    Classe di Concorso
+                  </td>
+                  <td>
+                    Aula
+                  </td>
+                  <td>
+                    Turno
+                  </td>
+                </tr>
+                <!-- Quarta riga -->
+                <tr>
+                  <td>
+                    Data
+                  </td>
+                  <td>
+                    Classe di Concorso
+                  </td>
+                  <td>
+                    Aula
+                  </td>
+                  <td>
+                    Turno
+                  </td>
+                </tr>
+              </tbody>
+          </div>
+        </div>
+
+
+
+*/
