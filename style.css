@@ -123,6 +123,24 @@ a:hover #img-home-navbar {
     border: 1px solid black;
 }
 
+/* Terza riga */
+
+#mid-page-row3-sx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 2%;
+    color: rgb(101, 101, 255);
+}
+
+.mid-page-row3-dx{
+    background-color: rgb(235, 235, 235);
+    margin-top: 4%;
+    color: rgb(101, 101, 255);
+}
+
+#mid-page-row3-text-mid{
+    color: rgb(101, 101, 255);
+}
+
 /* Style delle informazioni che si trovano in fondo alla pagina */
 #footer {
     background-color: rgb(91, 107, 253);
@@ -225,7 +243,7 @@ a:-webkit-any-link {
     }
 
     #mid-page-title-row1-sx {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     #mid-page-row1-sx {
@@ -363,6 +381,110 @@ a:-webkit-any-link {
     #mid-page-row2-table-mid{
         width: 100%;
         height: 40px;
+    }
+
+    /* Terza riga */
+
+    #mid-page-row3-sx {
+        left: 5px;
+        border-radius: 10px;
+    }
+
+    #title-row3-sx {
+        margin-bottom: 5px;
+        margin-top: 7px;
+    }
+
+    #mid-page-row3-row1-img-classeviva{
+        width: 160px;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 3px;
+    }
+
+    #mid-page-row3-row2-img-albo-online{
+        width: 160px;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row3-img-trasparente-amministrazione{
+        width: 160px;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row4-img-comunicati{
+        width: 160px;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row5-img-scuola-territorio{
+        width: 160px;
+        height: auto;
+        float: right;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+
+    #link-row3-sx {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    #mid-page-row3-row1-dx {
+        border-radius: 10px;
+        height: 140px;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row2-dx {
+        border-radius: 10px;
+        height: 60px;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row3-dx {
+        border-radius: 10px;
+        height: 60px;
+        margin-top: 7px;
+        width: 200px;
+    }
+
+    #mid-page-row3-row1-educazione-civica {
+        width: 130px;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row2-moodle{
+        width: 130px;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-row2-bionet{
+        width: 130px;
+        height: auto;
+        float: right;
+        margin-top: 10px;
+    }
+
+    #mid-page-row3-text-mid{
+        margin-top: 10px;
     }
 
     /* Piè di pagina */
