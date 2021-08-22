@@ -487,6 +487,11 @@ a:-webkit-any-link {
         margin-top: 10px;
     }
 
+    #mid-page-row3-text-link-mid {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
     /* Piè di pagina */
 
     #footer {
