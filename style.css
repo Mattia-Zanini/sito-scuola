@@ -60,11 +60,10 @@ h1.mt-1 {
     height: 100%;
 }
 
-/* Non funziona, serviva per mettere uno sfondo azzurrino dietro all'immagine della home
-a:hover #img-home-navbar {    
+a.navbar-brand:hover {
     background: rgb(170, 237, 238);
     border-radius: 0.5vw;
-}*/
+}
 
 /* Personalizzazione schermata centrale della pagina */
 /* Prima riga */
