@@ -46,12 +46,12 @@ h1.mt-1 {
 
 /* Personalizzazione della barra di navigazione*/
 #navbar {
-    background-color: rgb(206, 237, 238);
+    background-color: rgb(33, 206, 212);
     width: 100%;
 }
 
 .active li:hover {
-    background: rgb(170, 237, 238);
+    background: rgb(95, 244, 247);
     border-radius: 0.5vw;
 }
 
@@ -61,7 +61,7 @@ h1.mt-1 {
 }
 
 a.navbar-brand:hover {
-    background: rgb(170, 237, 238);
+    background: rgb(95, 244, 247);
     border-radius: 0.5vw;
 }
 
