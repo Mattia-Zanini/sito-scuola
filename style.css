@@ -937,6 +937,10 @@ a:-webkit-any-link {
     #title-row3-sx {
         font-size: 3vw;
     }
+
+    #mid-page-row3-text-opendays-mid {
+        margin-top: 3%;
+    }
 }
 
 @media screen and (min-width: 992px) { /* LG */
