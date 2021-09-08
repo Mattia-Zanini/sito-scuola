@@ -580,6 +580,10 @@ a:-webkit-any-link {
     #mid-page-list-text-mid{
         list-style-type:none;
     }
+
+    #mid-page-list-text-mid-row3{
+        margin-top: 5%;
+    }
 }
 
 @media screen and (min-width: 576px) { /* SM */
@@ -909,6 +913,10 @@ a:-webkit-any-link {
 
     #mid-page-list-text-mid{
         list-style-type:none;
+    }
+
+    #mid-page-list-text-mid-row3{
+        margin-top: 1.3vw;
     }
 }
 
