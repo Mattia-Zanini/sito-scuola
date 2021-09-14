@@ -68,7 +68,7 @@ a.navbar-brand:hover {
 
 /* Seconda riga */
 
-.dx-mid-page-row2{
+.row2-dx-background{
     background-color: rgb(235, 235, 235);
     margin-top: 4%;
     color: rgb(101, 101, 255);
@@ -94,15 +94,6 @@ a.navbar-brand:hover {
     color: rgb(101, 101, 255);
 }
 
-#row2-mid-subtitle {
-    color: rgb(101, 101, 255);
-}
-
-#mid-page-row2-table-mid{
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-
 /* Terza riga */
 
 #row3-sx{
@@ -121,11 +112,7 @@ a.navbar-brand:hover {
     color: rgb(101, 101, 255);
 }
 
-#mid-page-row3-subtitle-mid{
-    color: rgb(101, 101, 255);
-}
-
-#mid-page-row3-text-bold-red{
+#row3-mid-bold-red{
     color: red;
 }
 
@@ -184,11 +171,12 @@ a:-webkit-any-link {
     }
     
     #row2-dx-mask {
-        margin-right: 5px !important;
+        margin-right: 12% !important;
+        float: right !important;
     }
 
     #title-row3-sx {
-        font-size: 5.5vw;
+        font-size: 5.5vw !important;
     }
 
     #row3-classeviva{
@@ -216,11 +204,11 @@ a:-webkit-any-link {
         margin-top: 15px !important;
     }
 
-    #mid-page-row3-row2-moodle{
+    #row3-dx-img-moodle{
         width: 115px !important;
     }
 
-    #mid-page-row3-row2-bionet{
+    #row3-dx-img-bionet{
         width: 115px !important;
     }
 
@@ -228,28 +216,58 @@ a:-webkit-any-link {
         font-size: 11px !important;
     }
 
-    #row2-dx-indirizzi-subtitle {
-        font-size: 11px !important;
-    }
-
     #row2-dx-indirizzi-title {
         font-size: 13px !important;
     }
 
-    #row2-dx-pon-studenti {
+    #row2-dx-pon-img-studenti {
         width: 100px !important;
+        margin-bottom: 6% !important;
+        float: right !important;
+        margin-right: 5% !important;
     }
 
     #row2-sx-link {
-        margin-top: 10px  !important;
+        margin-top: 10px !important;
     }
 
-    #mid-page-row3-text-email-mid {
-        font-size: 4.6vw !important;
+    #row2-dx-sicurezza-title {
+        text-align: center !important;
+        font-size: 4vw !important;
+        margin-top: 5px !important;
+    }
+
+    #row3-mid-title-marked {
+        line-height: 37px !important;
     }
 }
 
 @media screen and (max-width: 575px) { /* XS */
+
+    #top-page-title {
+        font-size: 6.4vw;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+
+    #top-page-logo-itis {
+        width: 40px;
+        height: auto;
+        margin-top: 13%;
+    }
+
+    #top-page-repubblica-it {
+        width: 35px;
+        height: auto;
+        right: 40%;
+        margin-top: 13%;
+    }
+
+    #top-page-certiquality {
+        width: 60px;
+        height: auto;
+        margin-top: 3%;
+    }
 
     /* Parte superiore della pagina */
 
@@ -286,6 +304,7 @@ a:-webkit-any-link {
     #row1-dx-title {
         text-align: right;
         font-size: 15px;
+        margin-top: 2%;
     }
 
     #row1-sx-link {
@@ -325,7 +344,7 @@ a:-webkit-any-link {
 
     #row2-dx-sicurezza-title {
         text-align: center;
-        font-size: 2.4vw;
+        font-size: 4vw;
         margin-top: 5px;
     }
 
@@ -384,11 +403,6 @@ a:-webkit-any-link {
         margin-top: 8px;
     }
 
-    #row2-dx-indirizzi-subtitle {
-        font-size: 12px;
-        text-align: center;
-    }
-
     #row2-dx-indirizzi-link {
         font-size: 12px;
         margin-top: 8px;
@@ -401,7 +415,7 @@ a:-webkit-any-link {
         margin-top: 8px;
     }
 
-    #row2-dx-pon-studenti {
+    #row2-dx-pon-img-studenti {
         width: 100%;
         height: auto;
         float: right;
@@ -420,19 +434,9 @@ a:-webkit-any-link {
         border-radius: 10px;
     }
 
-    #row2-mid-subtitle {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
     #row-mid-link {
         font-size: 12px;
         margin-bottom: 10px;
-    }
-
-    #mid-page-row2-table-mid{
-        width: 100%;
-        height: 40px;
     }
 
     /* Terza riga */
@@ -493,21 +497,21 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row1-dx {
+    #row3-dx-ed-civica {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
         width: 200px;
     }
 
-    #mid-page-row3-row2-dx {
+    #row3-dx-moodle {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
         width: 200px;
     }
 
-    #mid-page-row3-row3-dx {
+    #row3-dx-bionet {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
@@ -522,7 +526,7 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row2-moodle{
+    #row3-dx-img-moodle{
         width: 100%;
         height: auto;
         float: right;
@@ -530,7 +534,7 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row2-bionet{
+    #row3-dx-img-bionet{
         width: 100%;
         height: auto;
         float: right;
@@ -547,26 +551,16 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-link-mid {
-        font-size: 2.7vw;
-        margin-bottom: 10px;
-    }
-
-    #mid-page-row3-subtitle-mid{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-
-    #row3-mid-title-marked{
-        background-color: yellow;
-    }
-
     #img-mid-opendays{
         width: 100% ;
         height: auto;
         float: right;
         margin-right: 3px;
         margin-top: 2px;
+    }
+
+    #row3-mid-title-marked {
+        line-height: 37px;
     }
 
     /* Piè di pagina */
@@ -587,6 +581,30 @@ a:-webkit-any-link {
 }
 
 @media screen and (min-width: 576px) { /* SM */
+
+    #top-page-title {
+        font-size: 6.4vw;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    #top-page-logo-itis {
+        width: 65px;
+        height: auto;
+        margin-top: 14%;
+    }
+
+    #top-page-repubblica-it {
+        width: 55px;
+        height: auto;
+        margin-top: 15%;
+    }
+
+    #top-page-certiquality {
+        width: 100px;
+        height: auto;
+        margin-top: 3%;
+    }
 
     #home-navbar {
         width: 40px;
@@ -652,13 +670,13 @@ a:-webkit-any-link {
     #row2-dx-sicurezza {
         border-radius: 10px;
         height: auto;
-        margin-top: 7px;
+        margin-top: 5%;
         width: 100%;
     }
 
     #row2-dx-sicurezza-title {
         text-align: center;
-        font-size: 2.4vw;
+        font-size: 4vw;
         margin-top: 5px;
     }
 
@@ -710,18 +728,13 @@ a:-webkit-any-link {
     #row2-dx-tour-title {
         text-align: center;
         margin-top: 10px;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #row2-dx-indirizzi-title {
-        font-size: 3vw;
+        font-size: 3.5vw;
         text-align: center;
         margin-top: 8px;
-    }
-
-    #row2-dx-indirizzi-subtitle {
-        font-size: 2vw;
-        text-align: center;
     }
 
     #row2-dx-indirizzi-link {
@@ -731,12 +744,12 @@ a:-webkit-any-link {
     }
 
     #row2-dx-pon-studenti-title {
-        font-size: 14px;
+        font-size: 3.5vw;
         text-align: center;
         margin-top: 8px;
     }
 
-    #row2-dx-pon-studenti {
+    #row2-dx-pon-img-studenti {
         width: 100%;
         height: auto;
         float: right;
@@ -754,19 +767,13 @@ a:-webkit-any-link {
         border-radius: 10px;
     }
 
-    #row2-mid-subtitle {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
     #row-mid-link {
         font-size: 2.4vw;
         margin-bottom: 10px;
     }
 
-    #mid-page-row2-table-mid{
-        width: 100%;
-        height: 40px;
+    #row3-dx-row-ec {
+        margin-top: 2%;
     }
 
     /* Terza riga */
@@ -827,21 +834,21 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row1-dx {
+    #row3-dx-ed-civica {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
         width: auto;
     }
 
-    #mid-page-row3-row2-dx {
+    #row3-dx-moodle {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
         width: auto;
     }
 
-    #mid-page-row3-row3-dx {
+    #row3-dx-bionet {
         border-radius: 10px;
         height: auto;
         margin-top: 7px;
@@ -856,7 +863,7 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row2-moodle{
+    #row3-dx-img-moodle{
         width: 100%;
         height: auto;
         float: right;
@@ -864,7 +871,7 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-row2-bionet{
+    #row3-dx-img-bionet{
         width: 100%;
         height: auto;
         float: right;
@@ -881,18 +888,8 @@ a:-webkit-any-link {
         margin-bottom: 10px;
     }
 
-    #mid-page-row3-link-mid {
-        font-size: 2.7vw;
-        margin-bottom: 10px;
-    }
-
-    #mid-page-row3-subtitle-mid{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-
-    #row3-mid-title-marked{
-        background-color: yellow;
+    #row3-mid-title-marked {
+        line-height: 38px;
     }
 
     #img-mid-opendays{
@@ -920,6 +917,31 @@ a:-webkit-any-link {
         font-size: 2.4vw;
     }
 
+    #row1-sx-title {
+        font-size: 3.5vw;
+    }
+
+    #row2-mid-title {
+        font-size: 4.5vw;
+    }
+
+    #text-title {
+        font-size: 3vw;
+    }
+
+    #row3-mid-title-marked {
+        font-size: 3vw;
+        line-height: 45px;
+    }
+
+    #row3-dx-row-ec {
+        margin-top: 1vw;
+    }
+
+    #row2-dx-sicurezza {
+        margin-top: 5%;
+    }
+
     #row-mid-link {
         font-size: 2vw;
     }
@@ -940,12 +962,40 @@ a:-webkit-any-link {
         font-size: 3vw;
     }
 
-    #mid-page-row3-text-opendays-mid {
+    #row3-mid-text-openday {
         margin-top: 3%;
     }
 }
 
 @media screen and (min-width: 992px) { /* LG */
+
+    a.navbar-brand:hover {
+        border-radius: 0.7vw;
+    }
+
+    #top-page-title {
+        font-size: 4vw;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    #top-page-logo-itis {
+        width: 65px;
+        height: auto;
+        margin-top: 13%;
+    }
+
+    #top-page-repubblica-it {
+        width: 55px;
+        height: auto;
+        margin-top: 14%;
+    }
+
+    #top-page-certiquality {
+        width: 100px;
+        height: auto;
+        margin-top: 3%;
+    }
 
     a.nav-link {
         font-size: 1.3vw;
@@ -1009,8 +1059,8 @@ a:-webkit-any-link {
         width: 22%
     }
 
-    #mid-page-row3-row1-dx {
-        margin-top: 8%;
+    #row3-dx-ed-civica {
+        margin-top: 4%;
     }
 
     #row-mid-link {
@@ -1041,10 +1091,6 @@ a:-webkit-any-link {
 
     #row2-dx-indirizzi-title {
         font-size: 2vw;
-    }
-
-    #row2-dx-indirizzi-subtitle {
-        font-size: 1.6vw;
     }
 
     #row2-dx-indirizzi-link {
@@ -1084,16 +1130,17 @@ a:-webkit-any-link {
         font-size: 1.3vw;
     }
 
-    #mid-page-row3-link-mid {
-        font-size: 1.4vw;
-    }
-
-    #row2-mid-subtitle {
-        font-size: 1.6vw;
-    }
-
     #text-title {
         font-size: 1.6vw;
+    }
+
+    #row3-mid-title-marked {
+        font-size: 1.6vw;
+        line-height: 30px;
+    }
+
+    #footer {
+        font-size: 1vw;
     }
 
     /* Rimette i puntini negli elenchi */
@@ -1105,12 +1152,43 @@ a:-webkit-any-link {
 }
 
 @media screen and (min-width: 1200px) { /* XL */
+
+    #top-page-title {
+        margin-bottom: 10px;
+    }
+
+    #top-page-logo-itis {
+        width: 80px;
+        height: auto;
+        margin-top: 14%;
+    }
+
+    #top-page-repubblica-it {
+        width: 70px;
+        height: auto;
+        margin-top: 14%;
+    }
+
+    #top-page-certiquality {
+        width: 120px;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    #row3-mid-title-marked {
+        line-height: 40px;
+    }
+
 }
 
 @media screen and (min-width: 1400px) { /* XXL */
 
-    #mid-page-row3-row3-dx {
+    #row3-dx-bionet {
         width: 100%;
+    }
+
+    #row3-mid-title-marked {
+        line-height: 42px;
     }
 
 }
