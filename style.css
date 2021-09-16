@@ -1191,4 +1191,8 @@ a:-webkit-any-link {
         line-height: 42px;
     }
 
+    #top-page-title {
+        font-size: 3.1vw; 
+    }
+
 }
